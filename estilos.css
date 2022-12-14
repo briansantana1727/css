@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background:  #667eea 0%;
+}
+
+.header{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+.header .logo2{
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo2 img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header nav{
+    order: 1;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:nth-child(1){
+    padding: 0 20px 0 0;
+}
+
+
+
+.header .nav-links a{
+    font-size: 700;
+    color: #000;
+    text-decoration: none;    
+}
+
+
+.header .btn{
+    order: 2;
+}
+.header .btn2{
+    order: 2;
+}
+
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #43e97b;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn2 button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #E74C3C;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.container_img {
+    width: 20%;
+    text-align: center;
+}
+.img {
+    width: 200px;
+}
+
+.images {
+    display: inline-flex;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+
+.letras {
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  .container h1 {
+    padding: 2rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  .container .switch {
+    height: 80px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    padding: 0 1.5rem;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .container .switch .input {
+    display: none;
+  }
+  
+  .container .switch .rail {
+    position: relative;
+    width: 88px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 3rem;
+  }
+  
+  .container .switch .rail .circle {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    transition: transform 0.4s;
+  }
+  
+  .container .switch .indicator {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    transition: 0.4s;
+  }
+  
+  .container .switch .input:checked ~ .rail .circle {
+    transform: translate(52px, -50%);
+  }
+  
+  .container .switch .input:checked ~ .indicator {
+    background-color: #43e97b;
+
+  }
+  
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    min-height: 8vh;
+  }
+  
+  .footer a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    margin: .5rem;
+    color: #fff;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    padding:.5rem .73rem;
+    border-radius: 25%;
+  }
